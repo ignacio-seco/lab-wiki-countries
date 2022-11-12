@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.wikiBody{
+  display: flex;
+  flex-direction: row;
+}
+
+.listSide{
+  border:0 2px 0 0;
+  border-style: solid;
+  width: 30%;
+  height: 100vh;
+overflow:auto;
+}
+.informationSide{
+
+  width: 69%;
+  height:80vh;
+overflow: auto;
+}
